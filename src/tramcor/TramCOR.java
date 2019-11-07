@@ -9,6 +9,7 @@ package tramcor;
  *
  * @author s6105692
  */
+
 public class TramCOR {
 
     /**
@@ -16,7 +17,7 @@ public class TramCOR {
      */
     public static void main(String[] args) 
     {
-        // TODO code application logic here
+        
     }
     
 }
