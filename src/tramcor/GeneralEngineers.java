@@ -9,7 +9,7 @@ package tramcor;
  *
  * @author s6105692
  */
-public class GeneralEngineers extends ErrorHandling
+public class GeneralEngineers extends ErrorHandling //decided to use extend instead of implements as there is only one interface
 {
     @Override
     public void setNext(ErrorHandling High)
@@ -17,7 +17,7 @@ public class GeneralEngineers extends ErrorHandling
         nextInChain = High;
     }
     @Override
-    public void processError(Error error)
+    public void processError(Error error) //Processes the Error so if it is a High level error the General engineers will handle it
     {
         if(error.getError() == ErrorLevel.HIGH)
         {

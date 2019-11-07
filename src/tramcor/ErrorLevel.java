@@ -13,3 +13,4 @@ public enum ErrorLevel
 {
     LOW,LOW1,MEDIUM,MEDIUM1,HIGH,HIGH1,HIGH2
 }
+//decided to use an enum as that was more efficient that using variables that need to be instanciated within each class

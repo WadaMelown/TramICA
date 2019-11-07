@@ -9,7 +9,7 @@ package tramcor;
  *
  * @author s6105692
  */
-public class Error 
+public class Error
 {
     private ErrorLevel level;
 
@@ -17,6 +17,7 @@ public class Error
     {
         this.level = level;
     }
+
     public ErrorLevel getError()
     {
         return level;       
